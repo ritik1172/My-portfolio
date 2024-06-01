@@ -1,66 +1,80 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
+import project4 from "../assets/projects/project-4.png";
 
 export const EXPERIENCES = [
     {
-      year: "2023 - Present",
-      role: "Senior Full Stack Developer",
-      company: "Google Inc.",
-      description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-      technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-    },
-    {
-      year: "2022 - 2023",
-      role: "Frontend Developer",
-      company: "Adobe",
-      description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-      technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-    },
-    {
-      year: "2021 - 2022",
+      year: "Jan 2024 - Feb 2024",
       role: "Full Stack Developer",
-      company: "Facebook",
-      description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-      technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+      company: "Bharat Intern",
+      description: `Reduced the complexity of the Website by 30% by fetching the API.
+      Contributed to the development of responsive and visually appealing user interfaces, leading to a 15%
+      improvement in user satisfaction.
+      Assisted 2 teammates in back-end development, working with databases and server-side technologies to
+      enhance overall application functionality.
+      Collaborated with the team to meet project deadlines and deliver high-quality software products on time..`,
+      technologies: ["Javascript", "React.js", "NodeJS", "mongoDB"],
+      
+    },
+    {
+      year: "Dec 2023 - Jan 2024",
+      role: "Internshala Student Partner ISP 39",
+      company: "Internshala",
+      description: `In Internshala Student Program, led market strategy and communication efforts to promote training programs, engaging with the audience through social media, creating compelling content, and addressing inquiries to enhance program awareness and participation.`,
+      technologies: ["Communications skills", "Marketting", "Leadership"],
+    },
+    {
+      year: "Jul 2023 - Aug 2023",
+      role: "Virtual Program",
+      company: "TCS & Forage",
+      description: `Analyzed over 50 school data, tailoring solutions to meet specific requirements and objectives.
+      Conducted a comparative analysis of sustainability solutions, evaluating and recommending strategies for
+      improvement.
+      Enhanced proficiency in conducting comparative analyses, demonstrating an analytical approach to
+      problem-solving by providing an 80% accurate fitment matrix to clients.`,
+      technologies: ["HTML", "Bussiness Analysis", "JS", "Solution analysis"],
     },
   
   ];
 
 export const PROJECTS = [
     {
-      title: "E-Commerce Website",
+      title: "Insight Seeks",
       image: project1,
       description:
-        "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+        "A full fledge question answer website with proper authentication, dashboard and 3 coulumn Layout.",
       technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-    },
-    {
-      title: "Task Management App",
-      image: project2,
-      description:
-        "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-      technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      link: "https://github.com/ritik1172/Inseeks",
     },
     {
       title: "Portfolio Website",
-      image: project3,
+      image: project2,
       description:
-        "A personal portfolio website showcasing projects, skills, and contact information.",
-      technologies: ["HTML", "CSS", "React", "Bootstrap"],
+        "Personal portfolio built to showcasing skills interacting with users.",
+      technologies: ["HTML", "CSS", "JS", "React"],
+      link: "#",
     },
     {
-      title: "Blogging Platform",
+      title: "Registraion Page",
+      image: project3,
+      description:
+        "This system implements user authentication using JWT (JSON Web Token) and Bcrypt for password hashing. The main features include user registration, login, and a forgot password functionality..",
+      technologies: ["HTML", "CSS", "React", "MongoDB", "Express"],
+      link: "https://github.com/ritik1172/api",
+    },
+    {
+      title: "Joke API",
       image: project4,
       description:
-        "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-      technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+        "An Integrated API used to fetch the data of Jokes and showcasing in front end.",
+      technologies: ["HTML", "CSS", "JS"],
+      link: "https://joke-rest-api.netlify.app/",
     },
   ];
 
   export const CONTACT = {
-    address: "Kalyanpur, Kanpur, Uttar Pradesh, India",
+    address: "Kanpur, Uttar Pradesh, India",
     phoneNo: "+91 6306736***",
     email: "ritikcu@gmail.com",
   };

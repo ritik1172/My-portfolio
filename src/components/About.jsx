@@ -35,7 +35,7 @@ const About = () => {
               I'm eager to contribute my skills and grow professionally in a dynamic team environment.
               </p>
 
-              <a href="https://drive.google.com/file/d/1RTYo82hnmmhWyE6WIPPfVCvkbDccdWN2/view" className="mt-4 max-w-xl text-center bg-cyan-700 text-white font-bold py-2 px-4 rounded hover:bg-teal-700 transition duration-500 ease-in-out transform hover:scale-105">
+              <a href="https://drive.google.com/file/d/1RTYo82hnmmhWyE6WIPPfVCvkbDccdWN2/view" className="mt-4 max-w-xl text-center bg-cyan-700 text-white font-bold py-2 w-full px-4 rounded hover:bg-teal-700 transition duration-500 ease-in-out transform hover:scale-105">
                 Resume
              </a>
               

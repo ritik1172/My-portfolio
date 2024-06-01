@@ -3,6 +3,7 @@ import logo from "../assets/logo3.png";
 import {FaLinkedin} from "react-icons/fa";
 import {FaGithub} from "react-icons/fa";
 import {FaInstagram} from "react-icons/fa";
+import { IoMdMail } from "react-icons/io";
 
 
 
@@ -14,9 +15,18 @@ const Navbar = () => {
          cursor-pointer hover:shadow-lg hover:shadow-cyan-400" />
       </div>
       <div className="m-6 flex item-center justify-center gap-4 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
-        <FaInstagram />
+      <a href="https://www.linkedin.com/in/ritik1172/">
+          <FaLinkedin />
+        </a>
+        <a href="https://github.com/ritik1172">
+          <FaGithub />
+        </a>
+        <a href="https://www.instagram.com/your-username">
+          <FaInstagram />
+        </a>
+        <a href="mailto:ritikcu@gmail.com">
+          <IoMdMail />
+        </a>
       </div>
     </nav>
   )

@@ -21,7 +21,7 @@ const Hero = () => {
             variants={container(0)}
             initial="hidden"
             animate="visible"
-            className="pb-16 ml-1 text-5xl font-thin tracking-tight lg:mt-16 lg:text-8xl ">
+            className="pb-16 ml-3 text-5xl font-thin tracking-tight lg:mt-16 lg:text-8xl ">
                 Ritik Dwivedi
             </motion.h1>
 
@@ -30,7 +30,7 @@ const Hero = () => {
             initial="hidden"
             animate="visible"
             className="bg-gradient-to-r from-cyan-500 via-teal-500
-            to-cyan-500 bg-clip-text text-3xl tracking-tight text-transparent">
+            to-cyan-500 bg-clip-text ml-4 text-2xl tracking-tight text-transparent">
               Full Stack Developer
             </motion.span>
 
@@ -38,7 +38,7 @@ const Hero = () => {
             variants={container(1)}
             initial="hidden"
             animate="visible"
-            className="my-2 max-w-xl py-6 font-light tracking-tighter">
+            className="my-2 max-w-xl py-6 ml-4 font-light tracking-tighter">
             A Dedicated and passionate Full Stack Developer eager to create innovative and impactful web solutions. 
             With a strong foundation in both front-end and back-end technologies, I thrive on building seamless, user-friendly applications. 
             I am looking to work with a company that provides opportunities for both personal and professional advancement.

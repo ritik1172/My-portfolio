@@ -13,17 +13,22 @@ const Projects = () =>{
 
         <div>{PROJECTS.map((project, index) => (
          <div keys ={index} className="mb-4 flex flex-wrap lg:justify-center">
-            <motion.div
-            whileInView={{ opacity: 1, x: 0 }}
-            initial = {{ opacity: 0, x: -100}}
-            transition={{duration: 1}}
-            className="w-full lg:w-1/4">
-               <img src={project.image} width={150} 
-               height={150}
-               alt={project.title}
-               className="mb-6 rounded"
-               />
-            </motion.div>
+             <motion.div
+        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, x: -100 }}
+        transition={{ duration: 1 }}
+        className="w-full lg:w-1/4"
+      >
+        <a href={project.link} target="_blank" rel="noopener noreferrer">
+          <img
+            src={project.image}
+            width={150}
+            height={150}
+            alt={project.title}
+            className="mb-6 rounded"
+          />
+        </a>
+      </motion.div>
 
 
             <motion.div
