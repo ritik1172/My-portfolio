@@ -43,7 +43,7 @@ export const PROJECTS = [
       title: "Insight Seeks",
       image: project1,
       description:
-        "A full fledge question answer website with proper authentication, dashboard and 3 coulumn Layout.",
+        "Facilitated a platform with MERN Tech. Where students could actively engage with their peers, promoting collaborative learning and knowledge exchange with an interactive 3-column layout home page. ",
       technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
       link: "https://github.com/ritik1172/Inseeks",
     },
@@ -51,8 +51,8 @@ export const PROJECTS = [
       title: "Portfolio Website",
       image: project2,
       description:
-        "Personal portfolio built to showcasing skills interacting with users.",
-      technologies: ["HTML", "CSS", "JS", "React"],
+        "Demonstrates proficiency in web development technologies: HTML, CSS, and JavaScript. Strategically designed and constructed to serve as a showcase of web development skills and projects. ",
+      technologies: ["HTML", "Tailwind CSS", "JS", "React"],
       link: "#",
     },
     {

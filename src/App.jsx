@@ -7,6 +7,7 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import MultiLayerParallax from './components/MultiLayerParallax';
+import Services from './components/Services';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       <About />
       <Technologies />
       <MultiLayerParallax />
+      <Services />
       <Experience />
       <Projects />
       <Contact />

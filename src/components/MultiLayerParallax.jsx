@@ -3,7 +3,7 @@ import React, { useRef } from "react";
 import imageFull from "../assets/image-full.png";
 import imagebottom from "../assets/image-bottom.png";
 import { FaArrowDown } from "react-icons/fa";
-import Experience from "./Experience";
+
 
 export default function MultiLayerParallax() {
   const ref = useRef(null);
@@ -22,7 +22,7 @@ export default function MultiLayerParallax() {
     >
       <motion.h1
         style={{ y: textY }}
-        className="font-bold text-white text-6xl md:text-7xl relative z-10 lg:text-8xl"
+        className="font-bold text-white text-center text-6xl md:text-7xl relative z-10 lg:text-8xl"
       >
         My Services
       </motion.h1>
@@ -46,7 +46,7 @@ export default function MultiLayerParallax() {
       />
       
       <motion.button
-        className="absolute z-30 bg-cyan-800 flex items-center justify-center text-white py-2 pb-5 px-4 w-[20vh] rounded-md"
+        className="absolute z-30 bg-cyan-800 flex items-center justify-center text-white py-2 pb-5 px-4 w-[12vh] rounded-md"
         style={{
             opacity: buttonOpacity,
             top: "calc(90% - 2rem)", // Adjust the value (2rem) to give space from the bottom
@@ -56,7 +56,7 @@ export default function MultiLayerParallax() {
         whileTap={{ scale: 0.9 }}
         
       >
-        <FaArrowDown className="text-4xl text-black-400"/>
+        <FaArrowDown className="text-3xl text-black-400"/>
       </motion.button>
     </div>
   );
